@@ -1,0 +1,19 @@
+.right-container {
+    width: 80%;
+    text-align: center;
+}
+
+.left-container {
+    width: 20%;
+}
+
+.outer-container {
+    display: flex;
+    height: 100%;
+    padding: 25px;
+}
+
+.router-oulet {
+    border: 2px solid;
+    height: 100%;
+}

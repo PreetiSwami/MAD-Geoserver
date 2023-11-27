@@ -10,10 +10,31 @@
 .outer-container {
     display: flex;
     height: 100%;
-    padding: 25px;
+    padding: 15px;
 }
 
 .router-oulet {
-    border: 2px solid;
-    height: 100%;
+    //border: 2px solid;
+    height: 80%;
+    font-family: Inter;
+}
+
+.header {
+    padding-bottom: 20px;
+}
+
+.agriculture {
+    color: #395832;
+    font-weight: 700;
+    text-shadow: 1px 4px 5px #9e9e9ec9;
+    font-family: "Inter";
+    font-size: 45px;
+}
+
+.support {
+    color: #0f0f0f;
+    font-weight: 700;
+    text-shadow: 1px 4px 5px #9e9e9ec9;
+    font-family: "Inter";
+    font-size: 45px;
 }

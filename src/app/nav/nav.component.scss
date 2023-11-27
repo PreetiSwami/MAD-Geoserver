@@ -1,22 +1,47 @@
 .nav {
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu {
     //height: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.mad {
+    width: 125px;
+    height: 70px;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 15px 15px 15px 20px;
+    padding-bottom: 0px;
 }
 
 i {
     padding-right: 15px;
 }
 
+.agriculture {
+    color: #395832;
+    font-weight: 700;
+    text-shadow: 1px 4px 5px #9e9e9ec9;
+    font-family: "Inter";
+    font-size: 45px;
+}
+
+.support {
+    color: #0f0f0f;
+    font-weight: 700;
+    text-shadow: 1px 4px 5px #9e9e9ec9;
+    font-family: "Inter";
+    font-size: 45px;
+}
+
 .dropbtn {
     color: rgb(15, 14, 14);
-    padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -25,6 +50,8 @@ i {
 .dropdown {
     position: relative;
     display: inline-block;
+    text-align: left;
+    padding-left: 50px;
 }
 
 .dropdown-content {
